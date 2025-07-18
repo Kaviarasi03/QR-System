@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Employee Dashboard";
+}
+
+<div class="container mt-5">
+    <div class="row g-4">
+        
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-lg p-4">
+                <div class="card-body text-center">
+                    <h2 class="text-primary mb-3">👤 Employee Dashboard</h2>
+                    <p class="lead mb-4">Welcome, <strong>@User.Identity.Name!</strong></p>
+
+                    <div class="d-grid gap-3">
+                        <a class="btn btn-outline-primary btn-lg d-flex align-items-center justify-content-center" asp-controller="Account" asp-action="ChangePassword">
+                            <i class="bi bi-key me-2"></i> Change Password
+                        </a>
+                        <a class="btn btn-outline-info btn-lg d-flex align-items-center justify-content-center" asp-controller="Attendance" asp-action="AttendanceHistoryc">
+                            <i class="bi bi-card-checklist"></i> AttendanceHistory
+                        </a>
+                    </div> 
+                </div>
+            </div>
+        </div> 
+
+        
+        <div class="col-lg-6">
+            <div class="card border-0 shadow-lg p-4 text-center">
+                <div class="card-body">
+                    <h2 class="text-success mb-3">📌 Today's QR Code</h2>
+
+                    @if (ViewBag.QRCode != null)
+                    {
+                        <div class="d-flex justify-content-center">
+                            <img src="data:image/png;base64,@ViewBag.QRCode" alt="Employee QR Code"
+                                 class="img-fluid mt-3 border border-3 border-success rounded-3 shadow-lg p-2 bg-white"
+                                 style="max-width: 70%;" />
+                        </div>
+                    }
+                    else
+                    {
+                        <p class="text-danger mt-3">🚨 QR Code not generated</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

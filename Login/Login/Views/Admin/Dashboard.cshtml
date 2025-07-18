@@ -1,0 +1,49 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3 class="mb-0">Admin Dashboard</h3>
+                </div>
+                <div class="card-body text-center">
+                    <p class="lead">Welcome, <strong>@User.Identity.Name!</strong></p>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <a class="btn btn-success w-100 p-3 shadow-sm" asp-controller="Admin" asp-action="CreateUser">
+                                <i class="fa fa-user-plus"></i> Create User
+                            </a>
+                        </div>
+                       <div class="col-md-6 mb-3">
+                            <a class="btn btn-secondary w-100 p-3 shadow-sm" asp-controller="Account" asp-action="ChangePassword">
+                                <i class="fa fa-key"></i> Change Password
+                            </a>
+                        </div> 
+                        <div class="col-md-6 mb-3">
+                            <a class="btn btn-info w-100 p-3 shadow-sm" asp-controller="Attendance" asp-action="AttendanceHistroy">
+                                <i class="fa fa-clock"></i> Attendance History
+                            </a>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <a class="btn btn-primary w-100 p-3 shadow-sm" asp-controller="Attendance" asp-action="Scan">
+                                <i class="fa fa-qrcode"></i> Scanner
+                            </a>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <a class="btn btn-primary w-100 p-3 shadow-sm" asp-controller="Employee" asp-action="EmployeeList"><i class="bi bi-person-vcard"></i> Employee Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted text-center">
+                    <small>© @DateTime.Now.Year Admin Panel</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿
+@{     
+    var employeeDetails = new Dictionary<string, object>
+    {
+        { "Employee Id",Model.EmployeeId},
+        { "Name", Model.Name },
+        { "Email", Model.Email },
+        { "Department", Model.Department },
+        { "Job Title", Model.JobTitle },
+        { "Role", Model.Role },
+        { "Phone", Model.Phone },
+        { "Employment Type", Model.EmploymentType },
+        { "Date of Joining", Model.DateOfJoining?.ToString("dd-MMM-yyyy") },
+        { "Reporting Manager", Model.ReportingManager },
+        { "Address", Model.Address },
+        { "Is Document Submitted", Model.IsDocumentSubmitted ? "Yes" : "No" },
+        { "Submitted Documents", Model.SubmittedDocuments },
+        { "Pending Documents", Model.PendingDocuments },
+        { "Document Submission Date", Model.DocumentSubmissionDate?.ToString("dd-MMM-yyyy") },
+        { "Date of Exit", Model.DateOfExit?.ToString("dd-MMM-yyyy") },
+        { "Is Active", Model.IsActive ? "Yes" : "No" }
+    };
+}
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-10 text-start text-danger text-capitalize"><h1>Employee Details</h1></div>
+        <div class="col-2 text-end"><a class="btn btn-secondary" asp-controller="Employee" asp-action="EmployeeList"><i class="bi bi-arrow-left"></i> Back</a></div>
+    </div>
+    <hr />
+    <div class="row mt-5">
+        <div class="col-8">
+            @foreach (var detail in employeeDetails)
+            {
+                <div class="row">
+                    <div class="col-4"><h6>@detail.Key</h6></div>
+                    <div class="col-4"><p>: @detail.Value</p></div>
+                </div>
+            }
+        </div>
+        <div class="col-4 mt-4">
+            <img src="@Model.Photo" width="120px" height="150px"  class="border-5" alt="Employee Photo" />
+        </div>
+    </div>
+</div>

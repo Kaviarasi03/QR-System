@@ -1,0 +1,603 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\migrations\\20250304122305_intialses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\migrations\\20250304122305_intialses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\employee\\employeeedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\employee\\employeeedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\admin\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\models\\attendenceemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\models\\attendenceemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\employee\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\employee\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\controllers\\attendancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\migrations\\20250304053726_intialss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\migrations\\20250304053726_intialss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\attendance\\scan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\attendance\\scan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\employee\\employeeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\employee\\employeeview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\employee\\employeedelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\employee\\employeedelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\employee\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\employee\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Attendence\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\shared\\_notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\attendance\\attendancehistoryc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\attendance\\attendancehistoryc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\helpers\\qrcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\helpers\\qrcodehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\attendance\\attendancehistroy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\attendance\\attendancehistroy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\login.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rajasekar\\OneDrive\\Documents\\IISExpress\\config\\aspnet.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\migrations\\20250304085642_intialse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\migrations\\20250304085642_intialse.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|c:\\users\\kaviarasi\\downloads\\login\\login\\login\\migrations\\20250304085642_intialse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70AE5A74-5A85-40B4-88AC-B4D716D9E9C7}|Login\\Login.csproj|solutionrelative:login\\migrations\\20250304085642_intialse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttendenceEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\AttendenceEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\AttendenceEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\AttendenceEmployeeViewModel.cs",
+              "RelativeToolTip": "Login\\Models\\AttendenceEmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:15:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\Employee.cs",
+              "RelativeToolTip": "Login\\Models\\Employee.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T05:52:29.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T05:28:58.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeEdit.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Employee\\EmployeeEdit.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeEdit.cshtml",
+              "RelativeToolTip": "Login\\Views\\Employee\\EmployeeEdit.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T09:15:13.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Program.cs",
+              "RelativeDocumentMoniker": "Login\\Program.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Program.cs",
+              "RelativeToolTip": "Login\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:44:35.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwGcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:16:30.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\Attendance.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\Attendance.cs",
+              "RelativeToolTip": "Login\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:29:24.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\appsettings.json",
+              "RelativeDocumentMoniker": "Login\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\appsettings.json",
+              "RelativeToolTip": "Login\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T04:49:32.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Login\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Data\\SeedData.cs",
+              "RelativeToolTip": "Login\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:17:52.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250304122305_intialses.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304122305_intialses.cs",
+              "RelativeDocumentMoniker": "Login\\Migrations\\20250304122305_intialses.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304122305_intialses.cs",
+              "RelativeToolTip": "Login\\Migrations\\20250304122305_intialses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:23:05.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Login\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T06:42:25.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Login\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:14:34.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Admin\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Admin\\CreateUser.cshtml",
+              "RelativeToolTip": "Login\\Views\\Admin\\CreateUser.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T05:28:33.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Login\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Login\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T07:21:24.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Employee\\EmployeeList.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeList.cshtml",
+              "RelativeToolTip": "Login\\Views\\Employee\\EmployeeList.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAawBUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T06:05:22.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Login\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T09:22:52.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AttendanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AttendanceController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\AttendanceController.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\AttendanceController.cs",
+              "RelativeToolTip": "Login\\Controllers\\AttendanceController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAswHkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:16:55.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250304053726_intialss.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304053726_intialss.cs",
+              "RelativeDocumentMoniker": "Login\\Migrations\\20250304053726_intialss.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304053726_intialss.cs",
+              "RelativeToolTip": "Login\\Migrations\\20250304053726_intialss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:21:14.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Login\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Login\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAawDoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:17:35.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "Login\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T12:15:52.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Scan.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\Scan.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Attendance\\Scan.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\Scan.cshtml",
+              "RelativeToolTip": "Login\\Views\\Attendance\\Scan.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T06:58:48.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeView.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeView.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Employee\\EmployeeView.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeView.cshtml",
+              "RelativeToolTip": "Login\\Views\\Employee\\EmployeeView.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T07:01:11.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeDelete.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Employee\\EmployeeDelete.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\EmployeeDelete.cshtml",
+              "RelativeToolTip": "Login\\Views\\Employee\\EmployeeDelete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T06:53:48.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Employee\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Employee\\Dashboard.cshtml",
+              "RelativeToolTip": "Login\\Views\\Employee\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:28:34.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Attendence\\web.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Attendence\\web.config",
+              "ToolTip": "C:\\Attendence\\web.config",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Attendence\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-10T10:26:13.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Login\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T06:55:57.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_Notification.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Shared\\_Notification.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Shared\\_Notification.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Shared\\_Notification.cshtml",
+              "RelativeToolTip": "Login\\Views\\Shared\\_Notification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T04:45:34.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AttendanceHistoryc.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\AttendanceHistoryc.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Attendance\\AttendanceHistoryc.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\AttendanceHistoryc.cshtml",
+              "RelativeToolTip": "Login\\Views\\Attendance\\AttendanceHistoryc.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:44:33.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QRCodeHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Helpers\\QRCodeHelper.cs",
+              "RelativeDocumentMoniker": "Login\\Helpers\\QRCodeHelper.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Helpers\\QRCodeHelper.cs",
+              "RelativeToolTip": "Login\\Helpers\\QRCodeHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T06:55:29.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AttendanceHistroy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\AttendanceHistroy.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Attendance\\AttendanceHistroy.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Attendance\\AttendanceHistroy.cshtml",
+              "RelativeToolTip": "Login\\Views\\Attendance\\AttendanceHistroy.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T04:29:15.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Login\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\appsettings.Production.json",
+              "RelativeToolTip": "Login\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-10T09:43:54.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "aspnet.config",
+              "DocumentMoniker": "C:\\Users\\Rajasekar\\OneDrive\\Documents\\IISExpress\\config\\aspnet.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Rajasekar\\OneDrive\\Documents\\IISExpress\\config\\aspnet.config",
+              "ToolTip": "C:\\Users\\Rajasekar\\OneDrive\\Documents\\IISExpress\\config\\aspnet.config",
+              "RelativeToolTip": "..\\..\\..\\..\\Rajasekar\\OneDrive\\Documents\\IISExpress\\config\\aspnet.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-10T09:49:13.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.csproj",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Login.csproj",
+              "RelativeDocumentMoniker": "Login\\Login.csproj",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Login.csproj",
+              "RelativeToolTip": "Login\\Login.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-10T11:47:42.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Login\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Login\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T07:03:40.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250304085642_intialse.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304085642_intialse.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\Migrations\\20250304085642_intialse.Designer.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304085642_intialse.Designer.cs",
+              "RelativeToolTip": "Login\\Migrations\\20250304085642_intialse.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T12:40:30.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250304085642_intialse.cs",
+              "DocumentMoniker": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304085642_intialse.cs",
+              "RelativeDocumentMoniker": "Login\\Migrations\\20250304085642_intialse.cs",
+              "ToolTip": "C:\\Users\\Kaviarasi\\Downloads\\Login\\Login\\Login\\Migrations\\20250304085642_intialse.cs",
+              "RelativeToolTip": "Login\\Migrations\\20250304085642_intialse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T08:56:42.895Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

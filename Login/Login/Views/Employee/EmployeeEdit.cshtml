@@ -1,0 +1,164 @@
+﻿@model Employee
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-10 text-danger">
+            <h1>Employee Update</h1>
+        </div>
+        <div class="col-2 text-end">
+            <a asp-controller="Employee" asp-action="EmployeeList" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Back</a>
+        </div>
+    </div>
+    <hr />
+    <form method="post" enctype="multipart/form-data">
+    <div class="row mt-5">
+            <div class="col-6">
+                <h6><label asp-for="@Model.EmployeeId" class="form-label"></label></h6>
+                <input asp-for="@Model.EmployeeId" class="form-control" readonly></input>
+            </div>
+
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Name" class="form-label"></label></h6>
+                <input asp-for="@Model.Name" class="form-control" readonly></input>
+            </div>
+     </div>
+    
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Role" class="form-label"></label></h6>
+                <input asp-for="@Model.Role" class="form-control" readonly></input>
+            </div>
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Email" class="form-label"></label></h6>
+                <input asp-for="@Model.Email" type="email" class="form-control" readonly></input>
+            </div>
+       
+    </div>
+   
+       
+
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Phone" class="form-label"></label></h6>
+                <input asp-for="@Model.Phone" type="number" class="form-control"></input>
+            </div>
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Department" class="form-label"></label></h6>
+                <input asp-for="@Model.Department" class="form-control"></input>
+            </div>
+        
+    </div>
+   
+       
+   
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6> <label asp-for="@Model.JobTitle" class="form-label"></label></h6>
+                <input asp-for="@Model.JobTitle" class="form-control"></input>
+            </div>
+            <div class="col-6">
+               <h6> <label asp-for="@Model.ReportingManager" class="form-label"></label></h6>
+                <input asp-for="@Model.ReportingManager" class="form-control"></input>
+            </div>
+    </div>
+   
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6><label asp-for="@Model.DateOfJoining" class="form-label"></label></h6>
+                <input asp-for="@Model.DateOfJoining" type="date" class="form-control"></input>
+            </div>
+            <div class="col-6">
+                <h6><label asp-for="@Model.DateOfExit" class="form-label"></label></h6>
+                <input asp-for="@Model.DateOfExit" class="form-control"></input>
+            </div> 
+    </div>
+    
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6> <label asp-for="@Model.EmploymentType" class="form-label"></label></h6>
+                <select id="employeetype" asp-for="@Model.EmploymentType" class="form-select">
+                    <option value="">Select Role</option>
+                    <option value="Full-Time">Full-Time</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Shift-Based">Shift-Based</option>
+                </select>
+            </div>
+            <div class="col-6">
+                <h6><label asp-for="@Model.Address" class="form-label"></label></h6>
+                <input asp-for="@Model.Address" class="form-control"></input>
+            </div>
+    </div> 
+    
+    
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6><label asp-for="IsDocumentSubmitted" class="form-label"></label></h6>
+                <div class="row">
+                    <div class="col-4 d-flex align-items-center">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" id="IsDocumentSubmittedYes" value="true" asp-for="IsDocumentSubmitted">
+                            <label class="form-check-label" for="IsDocumentSubmittedYes">Yes</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="IsDocumentSubmittedNo" value="false" asp-for="IsDocumentSubmitted">
+                            <label class="form-check-label" for="IsDocumentSubmittedNo">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-6">
+                <h6><label asp-for="@Model.SubmittedDocuments" class="form-label"></label></h6>
+                <input asp-for="@Model.SubmittedDocuments" class="form-control"></input>
+            </div>
+    </div>
+   
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6><label asp-for="@Model.PendingDocuments" class="form-label"></label></h6>
+                <input asp-for="@Model.PendingDocuments" class="form-control"></input>
+            </div>
+            <div class="col-6">
+                <h6><label asp-for="@Model.DocumentSubmissionDate" class="form-label"></label></h6>
+                <input asp-for="@Model.DocumentSubmissionDate" class="form-control"></input>
+            </div>
+    </div>
+    
+    <div class="row mt-3">
+            <div class="col-6">
+                <h6> <label asp-for="@Model.Photo" class="form-label"></label></h6>
+                <input asp-for="@Model.Photo" name="image" type="file" class="form-control"></input>
+                <img src="@Model.Photo" width="120px" height="150px"/>
+            </div>
+            <div class="col-6">
+                <h6><label asp-for="@Model.IsActive"></label></h6>
+                <div class="row">
+                    <div class="col-4 d-flex align-items-center">
+                        <div class="form-check me-3">
+                            <input class="form-check-input" type="radio" value="true" asp-for="@Model.IsActive" id="isActiveYes">
+                            <label class="form-check-label" for="isActiveYes">Yes</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="false" asp-for="@Model.IsActive" id="isActiveNo">
+                            <label class="form-check-label" for="isActiveNo">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+        <div class="d-flex justify-content-center my-3">
+        <button type="submit" class="btn btn-success py-2">Update</button>
+        </div>
+    </form>
+
+</div>
+
+
+       
+
+    
+
+
+
+

@@ -1,0 +1,99 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body class="bg-light">
+
+    <div class="container mt-2">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white">
+                        <div class="row align-items-center">
+                            <div class="col-8">
+                                <h4 class="mb-0">Create User</h4>
+                            </div>
+                            <div class="col-4 text-end">
+                                <a class="btn btn-light btn-sm" asp-controller="Admin" asp-action="Dashboard">
+                                    <i class="bi bi-arrow-left"></i> Back
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <form asp-action="CreateUser" method="post">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="mb-2">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" name="fullName" class="form-control" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label">Email</label>
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label">Password</label>
+                                <input type="password" name="password" class="password form-control" required>
+                                <span class="text-danger">@Html.ValidationMessage("password")</span>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label">Confrom Password</label>
+                                <div class="input-group">
+                                <input type="password" name="confrompassword" class="password form-control" required>
+                                    <a class="btn btn-outline-secondary" onclick="view()"> <i class="bi bi-eye"></i></a>
+                                </div>
+                                <span class="text-danger">@Html.ValidationMessage("confrompassword")</span>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label">Role</label>
+                                <select name="role" class="form-select" required>
+                                    <option value="">Select Role</option>
+                                    <option value="Admin">Admin</option>
+                                    <option value="Employee">Employee</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Create User</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-center">
+                        @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+                        {
+                            <p class="bg-danger p-2 text-white rounded">@ViewBag.ErrorMessage</p>
+                        }
+                        @if (!string.IsNullOrEmpty(ViewBag.Message))
+                        {
+                            <p class="bg-success p-2 text-white rounded">@ViewBag.Message</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<script>
+    pass=document.getElementsByClassName("password");
+    function view()
+    {
+        Array.from(pass).forEach(item=>{
+            
+            item.type="text";
+            setTimeout(function(){
+            item.type="password";
+            },2000)
+            
+            }
+        )}
+   
+</script>

@@ -1,0 +1,57 @@
+﻿<script src="https://unpkg.com/html5-qrcode"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<div class="container mt-5 ">
+    <div class="row">
+        <div class="col-6">
+            <h1 class="mb-4 text-primary">QR Code Scanner</h1>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Admin" asp-action="Dashboard" class="btn btn-secondary">Back</a>
+        </div>
+        
+       </div>
+    
+    <div id="reader" class="border rounded shadow-lg p-3 bg-light mx-auto" style="width: 400px;"></div>
+    <p id="scannerStatus" class="mt-3 text-muted">Initializing scanner...</p>
+</div>
+
+<script>
+    let scanner = new Html5Qrcode("reader");
+
+    function onScanSuccess(qrData) {
+        console.log("Scanned QR Data:", qrData);
+        document.getElementById("scannerStatus").innerText = "Scanned Successfully!";
+
+        sendQRCodeToServer(qrData); // Send QR data to MVC controller
+
+        // Stop scanner and restart after 1 second
+        scanner.stop().then(() => {
+            setTimeout(startScanner, 1000);
+        });
+    }
+
+    function sendQRCodeToServer(qrData) {
+        $.ajax({
+            url: "/Attendance/MarkAttendance",  // Ensure the correct MVC route
+            type: "POST",
+            data: { qrData: qrData },  // Send data as a form
+            success: function (response) {
+                toastr.success(response.message); // Show success message
+            },
+            error: function (xhr) {
+                toastr.error("Error: " + xhr.responseText); // Show error message
+            }
+        });
+    }
+
+    function startScanner() {
+        scanner.start(
+            { facingMode: "environment" },
+            { fps: 10, qrbox: 250 },
+            onScanSuccess
+        );
+    }
+
+    startScanner(); // Start scanner on page load
+</script>
